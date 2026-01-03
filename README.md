@@ -26,7 +26,7 @@ The system was modeled in Simulink using **First-Order Transfer Functions** to r
   $$F(s) = \frac{1}{0.01s + 1}$$
 
 ## Simulink Model
-![System Diagram](https://github.com/YOUR-USERNAME/PID-Neonatal-Incubator-Control/blob/main/simulink_model.png?raw=true)
+![System Diagram](https://github.com/amna-014/PID-Neonatal-Incubator-Control/blob/main/temperaturecontrol%20.jpg?raw=true)
 *Figure 1: Complete Closed-Loop Block Diagram showing the PI Controller, Sensor Feedback Filter, and Thermal Plant Models.*
 
 ## Simulation Results
@@ -40,7 +40,7 @@ The system was tested with a Unit Step Reference of $37^\circ C$ over a 50-secon
 | **Steady State** | Stable at $37^\circ C$ | Stable at $37^\circ C$ |
 
 ### Response Graph
-![Results](https://github.com/YOUR-USERNAME/PID-Neonatal-Incubator-Control/blob/main/response_graph.png?raw=true)
+![Results](https://github.com/amna-014/PID-Neonatal-Incubator-Control/blob/main/matlab%20plot.jpg?raw=true)
 *Figure 2: The Red line ($T_{air}$) heats up quickly to warm the environment, while the Blue line ($T_{baby}$) rises smoothly without dangerous overshoot.*
 
 ## Repository Contents
@@ -49,7 +49,7 @@ The system was tested with a Unit Step Reference of $37^\circ C$ over a 50-secon
 * **MATLAB Scripts:** Code for plotting step response metrics.
 
 ## Author
-**Amna Yousuf **
+Amna Yousuf 
 *Biomedical Engineering Student, SSUET*
 
 ---
